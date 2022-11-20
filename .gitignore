@@ -1,0 +1,25 @@
+/target
+rust.txt
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+chess/node_modules
+chess/.pnp
+chess/.pnp.js
+
+# testing
+chess/coverage
+
+# production
+chess//build
+
+# misc
+chess/.DS_Store
+chess/.env.local
+chess/.env.development.local
+chess/.env.test.local
+chess/.env.production.local
+
+chess/npm-debug.log*
+chess/yarn-debug.log*
+chess/yarn-error.log*
